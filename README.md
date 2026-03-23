@@ -1,0 +1,2 @@
+# ReactInvestmentCalculator
+Investment Calculator implemetation
