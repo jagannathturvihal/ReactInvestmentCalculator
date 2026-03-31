@@ -1,7 +1,8 @@
 import { calculateInvestmentResults, formatter } from "../util/investment"
 
 export default function Results({ userInputs }) {
-    const investmentResult = calculateInvestmentResults(userInputs);
+    const investmentResult = [];
+    calculateInvestmentResults(userInputs, investmentResult);
     const initialInvestment = investmentResult[0].valueEndOfYear - investmentResult[0].interest - investmentResult[0].annualInvestment;
 
     // console.log(investmentResult);

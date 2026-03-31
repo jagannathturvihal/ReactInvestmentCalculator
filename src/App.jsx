@@ -28,7 +28,7 @@ function App() {
     <>
       <Header />
       <UserInputs userInputs={userInputs} onInputChange={handleChange} />
-      {isInputValid ? <Results userInputs={userInputs} /> : <p id="invalid-input">Please enter valid input values</p>}
+      {isInputValid ? <Results userInputs={userInputs} /> : <p className= "center" id="invalid-input">Please enter valid input values</p>}
     </>
 
   )
